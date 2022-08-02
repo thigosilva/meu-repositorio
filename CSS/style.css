@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(176, 165, 230);
+}
+
+.menu-h ul{
+    list-style: none;
+    padding: 0;
+    background-color: rgb(101, 98, 146);
+    margin: 0;
+}
+
+
+
+.menu-h ul li{
+    display: inline;
+}
+
+.menu-h ul li a{
+    color: rgb(12, 12, 12);
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+    font-family: 'Oswald', sans-serif;
+}
+
+.menu-h ul li a:hover{
+    background-color: rgb(236, 27, 27);
+
+}
+
+.home .img{
+    padding: 50px;
+    height: 100%;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.home .img .imagem2{
+    background-image: url(../imagem/Foto\ de\ thigo\ sil\ alexandre.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20vh;
+
+}
+
+
+.home .img .imagem1{
+    background-image: url(../imagem/Foto\ de\ thigo\ sil\ alexandre\ \(2\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    padding: 20vh;
+    
+}
+
+
+
+.sobre-mim h1{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.sobre-mim p{
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+.escolaridade h2{
+    font-family: 'Oswald', sans-serif;
+}
+
+.escolaridade ul li{
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+.portfólio h3{
+    font-family: 'Oswald', sans-serif;
+}
+
+.contato h4{
+    font-family: 'Oswald', sans-serif;
+}
+
+.contato p{
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+
+.sobre-mim{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.escolaridade{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfólio{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfólio .conteiner{
+    height: 100px;
+    width: 100%;
+    padding: 300px;
+    
+
+
+
+}
+
+.portfólio .imagemphotoshop{
+    background-color: blue;
+    padding: 250px;
+    height: 20px;
+    width: 20px;
+    background-image: url(../imagem/Capturar.PNG);
+}
+
+.portfólio .imagemcorel{
+    background-color: red;
+    padding: 265px;
+    height: 20px;
+    width: 295px;
+    position: absolute;
+    top: 650px;
+    left: 250px;
+    background-image: url(../imagem/Capturar2.PNG);
+}
+
+.portfólio .imagemphoto{   
+    background-color: red;
+    padding: 250px;
+    height: 20px;
+    width: 20px;
+    background-image: url(../imagem/Capturar3.PNG);
+    background-position: center;
+    position: relative;
+}
+
+
+
+.contato{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
